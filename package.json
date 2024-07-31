@@ -1,12 +1,13 @@
 {
   "name": "tailwindui-pocket",
-  "version": "0.1.0",
+  "version": ".0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "vitest"
   },
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {
@@ -27,6 +28,7 @@
     "eslint-config-next": "^14.0.4",
     "prettier": "^3.3.2",
     "prettier-plugin-tailwindcss": "^0.6.5",
-    "sharp": "0.33.1"
+    "sharp": "0.33.1",
+    "vitest": "^2.0.5"
   }
 }

@@ -30,6 +30,10 @@ module.exports = {
         'spin-reverse-slow': 'spin-reverse 4s linear infinite',
         'spin-reverse-slower': 'spin-reverse 6s linear infinite',
       },
+      backgroundImage: {
+        'rainbow-gradient':
+          'linear-gradient(90deg, #E40303, #FF8C00, #FFED00, #008026, #004DFF, #750787)',
+      },
       borderRadius: {
         '4xl': '2rem',
         '5xl': '2.5rem',

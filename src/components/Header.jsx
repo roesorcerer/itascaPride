@@ -103,22 +103,24 @@ export function Header() {
                           className="absolute inset-x-0 top-0 z-0 origin-top rounded-b-2xl bg-gray-50 px-6 pb-6 pt-32 shadow-2xl shadow-gray-900/20"
                         >
                           <div className="space-y-4">
-                            <MobileNavLink href="/#features">
-                              Features
+                            <MobileNavLink href="/#about">
+                              Our Mission
                             </MobileNavLink>
-                            <MobileNavLink href="/#reviews">
-                              Reviews
+                            <MobileNavLink href="/#sponsors">
+                              Sponsors
                             </MobileNavLink>
-                            <MobileNavLink href="/#pricing">
-                              Pricing
+                            <MobileNavLink href="/#events">
+                              Events
                             </MobileNavLink>
                             <MobileNavLink href="/#faqs">FAQs</MobileNavLink>
                           </div>
                           <div className="mt-8 flex flex-col gap-4">
-                            <Button href="/login" variant="outline">
-                              Log in
+                            <Button href="/contact" variant="outline">
+                              Get Involved
                             </Button>
-                            <Button href="#">Download the app</Button>
+                            <Button href="https://secure.actblue.com/donate/itascapride2024">
+                              Donate
+                            </Button>
                           </div>
                         </PopoverPanel>
                       </>
@@ -127,11 +129,18 @@ export function Header() {
                 </>
               )}
             </Popover>
-            <Button href="/login" variant="outline" className="hidden lg:block">
-              Log in
+            <Button
+              href="/contact"
+              variant="outline"
+              className="hidden lg:block"
+            >
+              Get Involved
             </Button>
-            <Button href="#" className="hidden lg:block">
-              Download
+            <Button
+              href="https://secure.actblue.com/donate/itascapride2024"
+              className="hidden lg:block"
+            >
+              Donate Today!
             </Button>
           </div>
         </Container>

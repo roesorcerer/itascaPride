@@ -16,7 +16,7 @@ export const metadata = {
   },
   description: 'Pride run through Itasca County Minnesota.',
   icons: {
-    icon: '/rainbowflag.ico', // Set the path to your favicon
+    icon: '/rainbowflag.ico', // I am not sure if I like this
   },
 }
 

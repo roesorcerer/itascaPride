@@ -15,9 +15,9 @@ export function Logomark(props) {
 export function Logo(className) {
   return (
     <Image
-      src="/itascapridelogo2.png" // Path should match the public directory path
+      src="/prideitasca.png" // Path should match the public directory path
       alt="Itasca Pride Logo"
-      width={100} // Adjust the width as needed
+      width={80} // Adjust the width as needed
       height={40} // Adjust the height as needed
       className={className}
     />

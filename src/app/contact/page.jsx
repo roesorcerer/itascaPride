@@ -1,3 +1,4 @@
+import React from 'react'
 import Link from 'next/link'
 
 import { AuthLayout } from '@/components/AuthLayout'
@@ -8,14 +9,14 @@ export const metadata = {
   title: 'Contact Us Today!',
 }
 
-export default function Register() {
+export default function Contact() {
   return (
     <AuthLayout
-      title="Sign up for an account"
+      title="Submit a Form Below to Voluneer"
       subtitle={
         <>
           Already registered?{' '}
-          <Link href="/login" className="text-cyan-600">
+          <Link href="/contact" className="text-cyan-600">
             Sign in
           </Link>{' '}
           to your account.

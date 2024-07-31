@@ -3,10 +3,11 @@ import Image from 'next/image'
 import clsx from 'clsx'
 
 import { AppDemo } from '@/components/AppDemo'
-import { AppStoreLink } from '@/components/AppStoreLink'
+import { EventPageLink } from '@/components/EventPageLink'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { PhoneFrame } from '@/components/PhoneFrame'
+import { RainbowFlag } from './rainbowflag/RainbowFlag'
 import logoBbc from '@/images/logos/bbc.svg'
 import logoCbs from '@/images/logos/cbs.svg'
 import logoCnn from '@/images/logos/cnn.svg'
@@ -105,17 +106,19 @@ export function Hero() {
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div className="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
             <h1 className="text-4xl font-medium tracking-tight text-gray-900">
-              Invest at the perfect time.
+              Embrace Diversity, Celebrate Pride!
             </h1>
             <p className="mt-6 text-lg text-gray-600">
-              By leveraging insights from our network of industry insiders,
-              you’ll know exactly when to buy to maximize profit, and exactly
-              when to sell to avoid painful losses.
+              Join us in celebrating the vibrant spirit of Itasca Pride! From
+              colorful parades to community events, there`s always something
+              exciting happening. Connect with friends, enjoy amazing
+              performances, and show your support for equality and love. Let`s
+              come together and make unforgettable memories!
             </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
-              <AppStoreLink />
+              <EventPageLink>Facebook Events</EventPageLink>
               <Button
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                href="https://www.facebook.com/ItascaPride/events/?id=61554640344998&sk=events"
                 variant="outline"
               >
                 <PlayIcon className="h-6 w-6 flex-none" />
@@ -126,14 +129,12 @@ export function Hero() {
           <div className="relative mt-10 sm:mt-20 lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">
             <BackgroundIllustration className="absolute left-1/2 top-4 h-[1026px] w-[1026px] -translate-x-1/3 stroke-gray-300/70 [mask-image:linear-gradient(to_bottom,white_20%,transparent_75%)] sm:top-16 sm:-translate-x-1/2 lg:-top-16 lg:ml-12 xl:-top-14 xl:ml-0" />
             <div className="-mx-4 h-[448px] px-9 [mask-image:linear-gradient(to_bottom,white_60%,transparent)] sm:mx-0 lg:absolute lg:-inset-x-10 lg:-bottom-20 lg:-top-10 lg:h-auto lg:px-0 lg:pt-10 xl:-bottom-32">
-              <PhoneFrame className="mx-auto max-w-[366px]" priority>
-                <AppDemo />
-              </PhoneFrame>
+              <PhoneFrame />
             </div>
           </div>
           <div className="relative -mt-4 lg:col-span-7 lg:mt-0 xl:col-span-6">
             <p className="text-center text-sm font-semibold text-gray-900 lg:text-left">
-              As featured in
+              Our Friendly Sponcers!
             </p>
             <ul
               role="list"
