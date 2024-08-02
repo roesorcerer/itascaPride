@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export function Logomark(props) {
   return (
-    <svg viewBox="0 0 40 40" aria-hidden="true" {...props}>
+    <svg viewBox="0 0 20 20" aria-hidden="true" {...props}>
       <path
         fillRule="evenodd"
         clipRule="evenodd"
@@ -17,9 +17,9 @@ export function Logo(className) {
     <Image
       src="/prideitasca.png" // Path should match the public directory path
       alt="Itasca Pride Logo"
-      width={80} // Adjust the width as needed
+      width={60} // Adjust the width as needed
       height={40} // Adjust the height as needed
-      className={className}
+      className={`w-auto max-w-xs sm:max-w-xs md:max-w-xs lg:max-w-xs xl:max-w-xs ${className}`}
     />
   )
 }
