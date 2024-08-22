@@ -1,5 +1,6 @@
 const headlessuiPlugin = require('@headlessui/tailwindcss')
 const formsPlugin = require('@tailwindcss/forms')
+import daisyui from 'daisyui'
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -40,6 +41,7 @@ module.exports = {
       },
       colors: ({ colors }) => ({
         gray: colors.neutral,
+        black: colors.black,
       }),
       fontFamily: {
         sans: 'var(--font-inter)',
@@ -69,5 +71,5 @@ module.exports = {
       },
     },
   },
-  plugins: [formsPlugin, headlessuiPlugin],
+  plugins: [formsPlugin, headlessuiPlugin, daisyui],
 }
